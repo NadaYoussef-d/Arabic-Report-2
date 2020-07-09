@@ -18,7 +18,7 @@ function PrintReceipt() {
   frameDoc.document.write(contents);
   frameDoc.document.write("</body></html>");
 
-  // frameDoc.document.write(`<br style ="line-height:350px;">`);
+  frameDoc.document.write(`<br style ="line-height:350px;">`);
   //repeat the content
   frameDoc.document.write("<html><head>");
   //Append the external CSS file.
